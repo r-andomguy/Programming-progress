@@ -2,11 +2,11 @@ import requests
 
 link = 'https://TESTE1.backupdti.repl.com'
 
-requisicao = requests.get(link)
+requisition = requests.get(link)
 
-print(requisicao)
-print(requisicao.json)
+print(requisition)
+print(requisition.json)
 
-dicionario = requisicao.json()
+dictionary = requisition.json()
 
-print(dicionario['total_vendas'])
+print(dictionary['sales_amount'])
